@@ -26,9 +26,9 @@
 				background-image: url('copyrightsunshiney.jpg');
 				background-repeat: repeat;
 				-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	background-attachment: fixed;
-	background-position: center;
+				-moz-font-smoothing: antialiased;
+				background-attachment: fixed;
+				background-position: center;
 			}
 			div.main {
 				border: 5px solid magenta;
@@ -48,9 +48,9 @@
 				color: red;
 				font-weight: bold;
 				text-align: center;
-				margin: -200px;
+				margin: -100px;
 				position: absolute;
-				font-size: 40px;
+				font-size: 10px;
 				display: block;
 				-webkit-animation:spin 4s linear infinite;
 				-moz-animation:spin 4s linear infinite;
@@ -91,6 +91,9 @@
 				</p>
 		</div>
 		<a href="https://twitter.com/kaepora"><h1>I HOPE YOUVE ENJOYED MY TWITTER LIST COMEMNTS PLEASE COME SOON FOR MORE TWITTER LIST COMMENTS</H1></a>
-		<audio autoplay="autoplay" loop="loop" src="home.webm"></audio>
+		<audio id="music" autoplay="autoplay" loop="loop" src="home.webm"></audio>
+		<script>
+			document.getElementById("music").volume = 0.3
+		</script>
 	</body>
 </html>
